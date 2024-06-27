@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://up.yimg.com/ib/th?id=OIP.fljCTsp0o0y5HVKLBrU1dwHaHa&%3Bpid=Api&rs=1&c=1&qlt=95&w=121&h=121" type="icon/image">
+    <link rel="stylesheet" href="Style.css">
+    <title>Calculator</title>
+        <!-- <script
+             src= "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
+                    integrity= 
+            "sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
+                    crossorigin="anonymous"
+                    referrerpolicy="no-referrer"></script> 
+                <script src= 
+            "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+                    integrity= 
+            "sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+                    crossorigin="anonymous"
+                    referrerpolicy="no-referrer">
+        </script> -->
+
+</head>
+<body>
+
+      <div id="calculator">
+            <input id="display" readonly>
+            <div id="keys">
+                <input type="button" value="+" id="plus" onclick="display.value += '+'" class="cv">
+                <input type="button" value="7" id="7" onclick="display.value +=7">
+                <input type="button" value="8" id="8" onclick="display.value +=8">
+                <input type="button" value="9" id="9" onclick="display.value +=9">
+                <input type="button" value="-" id="min" onclick="display.value +='-'" class="cv">
+                <input type="button" value="4" id="4" onclick="display.value +=4" >
+                <input type="button" value="5" id="5" onclick="display.value +=5">
+                <input type="button" value="6" id="6" onclick="display.value +=6">
+                <input type="button" value="*" id="X" onclick="display.value +='*'" class="cv">
+                <input type="button" value="1" id="1" onclick="display.value +=1" >
+                <input type="button" value="2" id="2" onclick="display.value +=2">
+                <input type="button" value="3" id="3" onclick="display.value +=3">
+                <input type="button" value="/" id="di" onclick="display.value +='/'" class="cv">
+                <input type="button" value="0" id="0" onclick="display.value +=0" >
+                <input type="button" value="." id="dot" onclick="display.value +='.'" >
+                <input type="button" value="=" id="equ" onclick="equ()">
+                <input type="button" value="C" onclick="display.value = ''" class="C">
+                <input type="button" value="Off" onclick="display.value = 'Off'" class="jk">
+                <input type="button" value="On" onclick="display.value = 'On'" class="jk">
+                <input type="button" value="Hi" onclick="display.value = 'Hi'" class="jk">
+                    
+            </div>
+      </div>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>

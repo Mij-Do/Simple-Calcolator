@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(244, 71%, 20%);
+}
+
+#calculator{
+    background-color: hsl(0, 80%, 2%);
+    border-radius:20px ;
+    max-width: 500px;
+    overflow: hidden;
+    border: 2px solid #000000;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    font-size: 4rem;
+    border: 1px solid #000;
+    background-color: hsl(265, 100%, 84%) ;
+    color: #000;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+}
+
+input{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid #7c7a7a;
+    background: hsl(265, 79%, 60%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input:hover{
+    background: hsl(263, 90%, 72%);
+}
+
+input:active{
+    background: hsl(263, 90%, 85%);
+}
+
+
+.cv{
+    background: hsl(263, 98%, 20%);
+}
+
+.cv:hover{
+    background: hsl(263, 98%, 30%);
+}
+
+.cv:active{
+    background: hsl(263, 98%, 40%);
+}
+
+.C{
+    background: hsl(263, 100%, 10%);
+    
+}
+
+.C:hover{
+    background: hsl(263, 100%, 30%);
+}
+
+.C:active{
+    background: hsl(263, 100%, 40%);
+}
+.jk{
+    background: hsl(263, 100%, 10%);
+    
+}
+
+.jk:hover{
+    background: hsl(263, 100%, 30%);
+}
+
+.jk:active{
+    background: hsl(263, 100%, 40%);
+}
